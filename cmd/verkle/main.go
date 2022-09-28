@@ -166,7 +166,7 @@ func GenerateVerkleTree(cfg optionsCfg) error {
 	log.Info("Started Verkle Tree creation")
 
 	var root common.Hash
-	if root, err = verkleWriter.CommitVerkleTreeFromScratch(); err != nil {
+	if root, err = verkleWriter.CommitVerkleTree(common.Hash{}); err != nil {
 		return err
 	}
 

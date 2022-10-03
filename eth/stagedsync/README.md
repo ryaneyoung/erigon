@@ -4,7 +4,7 @@ Staged Sync is a version of [Go-Ethereum](https://github.com/ethereum/go-ethereu
 
 It is I/O intensive and even though we have a goal on being able to sync the node on an HDD, we still recommend using fast SSDs.
 
-Staged Sync, as its name suggests, consists of 10 stages that are executed in order, one after another.
+Staged Sync, as its name suggests, consists of 16 stages that are executed in order, one after another.
 
 ## How The Sync Works
 
